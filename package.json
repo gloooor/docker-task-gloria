@@ -1,0 +1,26 @@
+{
+  "name": "docker-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gloooor/docker-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gloooor/docker-task/issues"
+  },
+  "homepage": "https://github.com/gloooor/docker-task#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@paralect/node-mongo": "^2.0.0-beta.5",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0"
+  }
+}
