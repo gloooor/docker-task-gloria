@@ -16,7 +16,7 @@ services:
     networks:
       - app-network
     ports:
-      - 3030:3030
+      - 3033:3033
 
 networks:
   app-network:
