@@ -1,6 +1,6 @@
 version: '3'
 services:
-  db:
+  gl-db:
     container_name: gl-mongo
     image: mongo:4.2
     networks:

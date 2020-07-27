@@ -2,7 +2,7 @@ const Koa = require('koa');
 const Router = require('koa-router');
 const bodyParser = require('koa-bodyparser');
 
-const db = require('@paralect/node-mongo').connect("mongodb://db/docker");
+const db = require('@paralect/node-mongo').connect("mongodb://gl-db/docker");
 const service = db.createService('user');
 const loggerService = db.createService('logger');
 
